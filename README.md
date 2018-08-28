@@ -1,14 +1,11 @@
----
-layout: '[post]'
-title: webpack相关配置
-date: 2018-08-24 18:44:23
-tags: [webpack]
----
-  - webpack 是前端的一个项目构建工具，它是基于 Node.js 开发出来的一个前端工具
+
+# webpack相关配置
+
+- webpack 是前端的一个项目构建工具，它是基于 Node.js 开发出来的一个前端工具
   - 运行`npm i webpack -g`全局安装webpack
   - 在项目根目录中运行`npm i webpack --save-dev`安装到项目依赖中
 
-  <!--more-->
+ 
 ## 使用webpack的配置文件简化打包时候的命令
 
   1. 在项目根目录中创建`webpack.config.js`
